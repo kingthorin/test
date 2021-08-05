@@ -1,0 +1,10 @@
+name: Baseline Scan
+
+on: workflow_dispatch
+
+steps:
+  - name: ZAP Scan
+    uses: zaproxy/action-baseline@v0.4.0
+    with:
+      target: 'https://www.zaproxy.org'
+      token: ""
