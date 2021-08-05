@@ -12,3 +12,4 @@ jobs:
       with:
         target: 'https://www.zaproxy.org'
         token: ""
+        fail_action: false
