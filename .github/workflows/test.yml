@@ -13,3 +13,5 @@ jobs:
         target: 'https://www.zaproxy.org'
         token: ""
         fail_action: false
+    - name: 'Finish nicely'
+      run: echo Success
