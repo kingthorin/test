@@ -1,10 +1,9 @@
 name: Baseline Scan
 
-on:
-  workflow_dispatch:
+on: workflow_dispatch
 
 jobs:
-  dp_baesline:
+  do_baesline:
     name: Do baseline
     runs-on: ubuntu-latest
       - name: Run OWASP Action
