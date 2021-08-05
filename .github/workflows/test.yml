@@ -5,8 +5,8 @@ on: workflow_dispatch
 jobs:
   do_baseline:
   steps:
-    - name: ZAP Scan
-      uses: zaproxy/action-baseline@v0.4.0
-      with:
-        target: 'https://www.zaproxy.org'
-        token: ""
+  - name: ZAP Scan
+    uses: zaproxy/action-baseline@v0.4.0
+    with:
+      target: 'https://www.zaproxy.org'
+      token: ""
