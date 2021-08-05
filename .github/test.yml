@@ -1,0 +1,16 @@
+name: Baseline Scan
+
+on:
+  workflow_dispatch:
+
+jobs:
+  dp_baesline:
+    name: Do baseline
+    runs-on: ubuntu-latest
+      - name: Run OWASP Action
+        id: run_owasp
+        uses: zaproxy/action-baseline@v0.4.0
+        with:
+          target: 'https://example.com'
+          cmd_options: 'dev-baseline.html'
+          token: ""
