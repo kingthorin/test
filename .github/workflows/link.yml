@@ -15,4 +15,5 @@ jobs:
           TARGET: |
             - https://www.zaproxy.org/evangelists/
             - https://www.zaproxy.org/student-hall-of-fame/
-          RECURSE: false
+            - https://owasp.org/www-community/attacks/Brute_force_attack
+          RECURSIVE: false
