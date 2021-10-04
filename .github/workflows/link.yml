@@ -17,4 +17,4 @@ jobs:
             - https://www.zaproxy.org/student-hall-of-fame/
             - https://kingthorin.github.io/test/
             - https://owasp.org/www-community/fail
-          RECURSIVE: false
+          RECURSIVE: true
