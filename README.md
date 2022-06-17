@@ -1,4 +1,4 @@
-# test
+# Test
 
  [will fail DNS](https://shouldfailtolookup.com/)
  
