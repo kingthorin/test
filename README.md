@@ -1,5 +1,3 @@
-{% include mermaid.html %}
-
 # Test
 
  [will fail DNS](https://shouldfailtolookup.com/)
